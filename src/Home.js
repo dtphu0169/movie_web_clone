@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import Movies from "./Movies";
+import Search from "./Search";
 
 const Home = () => {
-    return <div>Home</div>
+    return (
+        <>
+            <Search/>
+            <Movies/>
+        </>
+    )
 }
 
 export default Home;
